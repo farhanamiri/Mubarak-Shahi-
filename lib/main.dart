@@ -1,24 +1,15 @@
-import 'package:flutter/material.dart';
+name: mubarak_shahi
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
 
-void main() {
-  runApp(const MyApp());
-}
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+dependencies:
+  flutter:
+    sdk: flutter
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: Text('Mubarak Shahi')),
-        body: Center(
-          child: Text(
-            'App چل گئی ✅',
-            style: TextStyle(fontSize: 24),
-          ),
-        ),
-      ),
-    );
-  }
-}
+flutter:
+  uses-material-design: true
